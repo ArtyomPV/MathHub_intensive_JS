@@ -1,0 +1,30 @@
+body{
+
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+}
+.header_links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    list-style: none;
+    text-decoration: gray;
+}.main_title{
+    color: darkblue;
+    text-align: center;
+ }
+.items{
+    display: flex;
+    justify-content: space-around;
+    justify-items: stretch;
+}
+.item_image{
+max-width: 300px;
+}
