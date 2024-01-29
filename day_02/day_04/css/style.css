@@ -1,0 +1,64 @@
+#cat{
+    width: 800px;
+    height: 800px;
+    background-image: url("https://img.freepik.com/free-photo/close-up-on-kitten-surrounded-by-flowers_23-2150782329.jpg?w=360&t=st=1705940972~exp=1705941572~hmac=1c4621af8cdbae369f5328824536f62086f7202128ab96de25c80726a4f2843c");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+}
+
+p{
+    color: white;
+    background-color: green;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    /*margin-left: 10px;*/
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#my-block{
+    color: white;
+    background-color: darkblue;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px 20px 15px;
+    /*border-color: orange;*/
+    /*border-width: 3px;*/
+    /*border-style: solid;*/
+    border: 1px red solid;
+    border-bottom: 5px green dashed;
+    box-sizing: border-box;
+    /*расчеты ведутся от width и heigh*/
+}
+
+/*
+STATIC
+RELATIVE
+ABSOLUTE
+STICKY
+ */
+
+.block-1{
+    position: relative;
+    top: 330px;
+}
+.block-2{
+    position: absolute;
+    /*top: 0;*/
+    bottom: 0;
+    right: 0;
+}
+.block-3{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.block-4{}
+
+#second-block{
+    opacity: 20%;
+}
